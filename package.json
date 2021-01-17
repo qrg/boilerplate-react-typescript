@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate-react-typescript",
+  "version": "0.0.1",
+  "author": "qrg <qualle.rhythmus+d@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=14.15.4"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development HMR=true webpack serve",
+    "build": "cross-env NODE_ENV=development webpack",
+    "lint": "yarn lint:prettier && yarn lint:eslint",
+    "lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "lint:prettier": "prettier --check '**/*.{js,jsx,ts,tsx,md,yml,yaml,html,json}'"
+  },
+  "dependencies": {
+    "core-js": "3.9.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+    "@types/node": "^14.14.34",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "prettier": "^2.2.1",
+    "react-refresh": "^0.9.0",
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.3",
+    "webpack": "^5.25.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
