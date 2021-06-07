@@ -16,7 +16,7 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "core-js": "3.13.1",
+    "core-js": "3.14.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
@@ -34,7 +34,7 @@
     "babel-loader": "8.2.2",
     "clean-webpack-plugin": "4.0.0-alpha.0",
     "cross-env": "7.0.3",
-    "eslint": "7.27.0",
+    "eslint": "7.28.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-config-standard": "16.0.3",
     "eslint-plugin-import": "2.23.4",
