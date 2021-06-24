@@ -1,7 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
+  "timezone": "Asia/Tokyo",
+  "schedule": ["before 4pm"],
   "labels": ["dependencies"],
+  "dependencyDashboard": true,
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true
@@ -11,7 +14,6 @@
     "automerge": true
   },
   "rangeStrategy": "bump",
-  "automergeType": "branch",
   "major": {
     "automerge": false
   },
