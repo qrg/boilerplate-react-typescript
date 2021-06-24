@@ -1,6 +1,41 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
+  "labels": ["dependencies"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
+  "vulnerabilityAlerts": {
+    "addLabels": ["security"],
+    "automerge": true
+  },
+  "rangeStrategy": "bump",
+  "automergeType": "branch",
+  "major": {
+    "automerge": false
+  },
   "minor": {
-    "groupName": "all dependencies (non-major)"
-  }
+    "automerge": true,
+    "groupName": "Minor updates"
+  },
+  "patch": {
+    "automerge": true,
+    "groupName": "Patch updates"
+  },
+  "pin": {
+    "automerge": true,
+    "groupName": "Pin updates"
+  },
+  "digest": {
+    "automerge": true,
+    "groupName": "Digest updates"
+  },
+  "packageRules": [
+    {
+      "description": "disable package.json > engines update",
+      "depTypeList": ["engines"],
+      "enabled": false
+    }
+  ]
 }
