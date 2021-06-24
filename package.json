@@ -11,7 +11,7 @@
     "dev": "cross-env NODE_ENV=development HMR=true tsc --noEmit && webpack serve",
     "build": "cross-env NODE_ENV=development tsc --noEmit && webpack",
     "test": "jest",
-    "lint": "yarn type-check && yarn lint:prettier && yarn lint:eslint",
+    "lint": "yarn type-check && yarn lint:eslint && yarn lint:prettier",
     "lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
     "lint:prettier": "prettier --check '**/*.{js,jsx,ts,tsx,md,yml,yaml,html,json}'",
     "type-check": "tsc --noEmit"
