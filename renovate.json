@@ -33,11 +33,7 @@
     "automerge": true,
     "groupName": "Digest updates"
   },
-  "packageRules": [
-    {
-      "description": "disable package.json > engines update",
-      "depTypeList": ["engines"],
-      "enabled": false
-    }
-  ]
+  "node": {
+    "supportPolicy": ["lts_latest"]
+  }
 }
