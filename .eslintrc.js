@@ -4,7 +4,6 @@ const pluginsTs = [...plugins, '@typescript-eslint']
 const configs = [
   'eslint:recommended',
   'standard',
-  'prettier',
   'plugin:import/errors',
   'plugin:import/warnings',
   'plugin:promise/recommended',
@@ -93,7 +92,7 @@ const rulesTs = {
 module.exports = {
   root: true,
   plugins,
-  extends: configs,
+  extends: [...configs, 'prettier'],
   parserOptions,
   settings: {
     react: {
@@ -142,7 +141,7 @@ module.exports = {
         ...parserOptions,
         project: './tsconfig.json',
       },
-      extends: configsTs,
+      extends: [...configsTs, 'prettier'],
       rules: rulesTs,
     },
     {
