@@ -33,11 +33,20 @@
     "automerge": true,
     "groupName": "Digest updates"
   },
-  "packageRules": [
+  "node": {
+    "supportPolicy": ["lts_latest"]
+  },
+  "regexManagers": [
     {
-      "description": "disable package.json > engines update",
-      "depTypeList": ["engines"],
-      "enabled": false
+      "fileMatch": ["^.github/workflows/.+\\.ya?ml$"],
+      "matchStrings": [
+        "name: Use Node.js v(?<currentValue>.+)\n",
+        "node-version: ['\"]?(?<currentValue>[^'\"]*)['\"]?"
+      ],
+      "depNameTemplate": "node",
+      "lookupNameTemplate": "nodejs/node",
+      "datasourceTemplate": "github-tags",
+      "versioningTemplate": "node"
     }
   ]
 }
