@@ -19,7 +19,7 @@ const isHMR = HMR === 'true'
 module.exports = {
   target: 'web',
   mode: isProd ? 'production' : 'development',
-  entry: entry,
+  entry,
   output: {
     path: dist,
     filename: outputFilename,
