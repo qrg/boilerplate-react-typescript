@@ -3,7 +3,6 @@ const pluginsTs = [...plugins, '@typescript-eslint']
 
 const configs = [
   'eslint:recommended',
-  'standard',
   'plugin:import/errors',
   'plugin:import/warnings',
   'plugin:promise/recommended',
@@ -11,12 +10,15 @@ const configs = [
   'plugin:react/recommended',
   'plugin:react-hooks/recommended',
   'plugin:jsx-a11y/recommended',
+  'airbnb',
+  'airbnb/hooks',
 ]
 const configsTs = [
   ...configs,
   'plugin:import/typescript',
   'plugin:@typescript-eslint/recommended',
   'plugin:@typescript-eslint/recommended-requiring-type-checking',
+  'airbnb-typescript',
 ]
 
 const parserOptions = {
@@ -43,6 +45,7 @@ const rules = {
       varsIgnorePattern: '^_',
     },
   ],
+  'import/prefer-default-export': 'off',
   'react/prop-types': 'off',
 
   // Introducing the New JSX Transform – React Blog

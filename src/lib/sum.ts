@@ -1,3 +1,2 @@
-export const sum = (...a: number[]): number => {
-  return a.reduce((acc, val) => acc + val, 0)
-}
+export const sum = (...a: number[]): number =>
+  a.reduce((acc, val) => acc + val, 0)
