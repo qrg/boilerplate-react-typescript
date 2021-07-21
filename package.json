@@ -12,8 +12,11 @@
     "build": "cross-env NODE_ENV=development tsc --noEmit && webpack",
     "test": "jest",
     "lint": "yarn type-check && yarn lint:eslint && yarn lint:prettier",
+    "lint:fix": "yarn lint:eslint:fix && yarn lint:prettier:fix",
     "lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "lint:eslint:fix": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
     "lint:prettier": "prettier --check '**/*.{js,jsx,ts,tsx,md,yml,yaml,html,json}'",
+    "lint:prettier:fix": "prettier --write '**/*.{js,jsx,ts,tsx,md,yml,yaml,html,json}'",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
