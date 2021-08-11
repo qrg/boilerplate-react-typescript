@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": "^14.17.4"
+    "node": "^v14.17.5"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development HMR=true tsc --noEmit && webpack serve",
