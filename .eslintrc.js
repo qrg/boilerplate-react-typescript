@@ -53,6 +53,10 @@ const rules = {
   'react/jsx-uses-react': 'off',
   'react/react-in-jsx-scope': 'off',
 
+  'react/function-component-definition': [
+    'error',
+    { namedComponents: 'arrow-function' },
+  ],
   'jsx-a11y/anchor-is-valid': [
     'error',
     {
