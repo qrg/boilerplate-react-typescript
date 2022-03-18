@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": "^v16.14.1"
+    "node": "^v16.14.2"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development HMR=true tsc --noEmit && webpack serve",
@@ -60,6 +60,6 @@
     "webpack-dev-server": "4.7.4"
   },
   "volta": {
-    "node": "16.14.1"
+    "node": "16.14.2"
   }
 }
