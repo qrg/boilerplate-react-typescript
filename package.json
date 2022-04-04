@@ -29,7 +29,7 @@
     "@babel/preset-env": "7.16.11",
     "@babel/preset-react": "7.16.7",
     "@babel/preset-typescript": "7.16.7",
-    "@pmmmwh/react-refresh-webpack-plugin": "0.5.4",
+    "@pmmmwh/react-refresh-webpack-plugin": "0.5.5",
     "@types/jest": "^27.4.1",
     "@types/node": "16.11.26",
     "@types/react": "17.0.43",
