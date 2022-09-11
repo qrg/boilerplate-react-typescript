@@ -44,7 +44,9 @@ module.exports = {
     isHMR && new ReactRefreshWebpackPlugin(),
   ].filter(Boolean),
   devServer: {
-    contentBase: dist,
+    static: {
+      directory: dist,
+    },
     hot: isHMR,
   },
 }
