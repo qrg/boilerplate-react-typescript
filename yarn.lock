@@ -2351,9 +2351,9 @@ chrome-trace-event@^1.0.2:
   integrity sha512-p3KULyQg4S7NIHixdwbGX+nFHkoBiA4YQmyWtjb8XngSKV124nJmRysgAeujbUVb15vh+RvFUfCPqU7rXk+hZg==
 
 ci-info@^3.2.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.6.0.tgz#d37ad22393e808cd62937a3f9be726f801654857"
-  integrity sha512-RfY02LtqkzB/aiyTrh0TtDS0rQnQY3kyvkVkdBnPTUbkiGbkkCJhS7Oj8b37Qa/5eGiMilF3kH+/Km1EZxpuyQ==
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.6.1.tgz#7594f1c95cb7fdfddee7af95a13af7dbc67afdcf"
+  integrity sha512-up5ggbaDqOqJ4UqLKZ2naVkyqSJQgJi5lwD6b6mM748ysrghDBX0bx/qJTUHzw7zu6Mq4gycviSF5hJnwceD8w==
 
 cjs-module-lexer@^1.0.0:
   version "1.2.2"
