@@ -7,13 +7,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - name: Use Node.js v18.13.0
         uses: actions/setup-node@v3
         with:
           node-version: '18.13.0'
+
+      - name: Use pnpm
+        uses: pnpm/action-setup@v2
+
       - name: Install
-        run: yarn install
+        run: pnpm install --frozen-lockfile --strict-peer-dependencies
+
       - name: Lint
-        run: yarn lint
+        run: pnpm lint
+
       - name: Test
-        run: yarn test
+        run: pnpm test
