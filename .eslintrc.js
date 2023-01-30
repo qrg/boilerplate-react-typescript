@@ -29,12 +29,24 @@ const parserOptions = {
 }
 
 const rules = {
+  // off
+  'import/prefer-default-export': 'off',
+  'react/prop-types': 'off',
+
+  // Introducing the New JSX Transform – React Blog
+  // https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
+  'react/jsx-uses-react': 'off',
+  'react/react-in-jsx-scope': 'off',
+
+  // warn
   'no-console': 'warn',
+  'prefer-template': 'warn',
+
+  // error
   'no-var': 'error',
   'prefer-const': 'error',
   'prefer-rest-params': 'error',
   'prefer-spread': 'error',
-  'prefer-template': 'warn',
   'prefer-arrow-callback': 'error',
   camelcase: 'warn',
   'no-unused-vars': [
@@ -44,14 +56,6 @@ const rules = {
       varsIgnorePattern: '^_',
     },
   ],
-  'import/prefer-default-export': 'off',
-  'react/prop-types': 'off',
-
-  // Introducing the New JSX Transform – React Blog
-  // https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
-  'react/jsx-uses-react': 'off',
-  'react/react-in-jsx-scope': 'off',
-
   'react/function-component-definition': [
     'error',
     { namedComponents: 'arrow-function' },
