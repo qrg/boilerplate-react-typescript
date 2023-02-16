@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": "^v18.14.0"
+    "node": "^v18.14.1"
   },
   "packageManager": "pnpm@7.27.0",
   "scripts": {
