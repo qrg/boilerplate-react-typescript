@@ -7,7 +7,7 @@
   "engines": {
     "node": "^v18.14.1"
   },
-  "packageManager": "pnpm@7.27.0",
+  "packageManager": "pnpm@7.27.1",
   "scripts": {
     "dev": "cross-env NODE_ENV=development HMR=true tsc --noEmit && webpack serve",
     "build": "cross-env NODE_ENV=development tsc --noEmit && webpack",
