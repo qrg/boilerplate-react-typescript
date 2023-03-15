@@ -6,7 +6,7 @@ specifiers:
   '@babel/preset-react': 7.18.6
   '@babel/preset-typescript': 7.21.0
   '@pmmmwh/react-refresh-webpack-plugin': 0.5.10
-  '@types/jest': ^29.4.1
+  '@types/jest': ^29.4.3
   '@types/node': 18.15.3
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
@@ -48,7 +48,7 @@ devDependencies:
   '@babel/preset-react': 7.18.6_@babel+core@7.21.3
   '@babel/preset-typescript': 7.21.0_@babel+core@7.21.3
   '@pmmmwh/react-refresh-webpack-plugin': 0.5.10_wxndgxvofpoq4ytgfh2wtm3iue
-  '@types/jest': 29.4.1
+  '@types/jest': 29.4.3
   '@types/node': 18.15.3
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
@@ -1917,8 +1917,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/29.4.1:
-    resolution: {integrity: sha512-zDQSWXG+ZkEvs2zFFMszePhx4euKz+Yt3Gg1P+RHjfJBinTTr6L2DEyovO4V/WrKXuF0Dgn56GWGZPDa6TW9eQ==}
+  /@types/jest/29.4.3:
+    resolution: {integrity: sha512-rQ+fXtBHSDfgoTwGLLNuZ27fHpp14mCZSxGUZ3MlNExwJno5hz0uXEWtXfQlE8vaZmYAa6atbR9rpHk+NnlRaw==}
     dependencies:
       expect: 29.5.0
       pretty-format: 29.5.0
