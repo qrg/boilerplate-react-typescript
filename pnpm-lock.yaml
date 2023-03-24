@@ -8,7 +8,7 @@ specifiers:
   '@pmmmwh/react-refresh-webpack-plugin': 0.5.10
   '@types/jest': ^29.5.0
   '@types/node': 18.15.7
-  '@types/react': 18.0.28
+  '@types/react': 18.0.29
   '@types/react-dom': 18.0.11
   '@typescript-eslint/eslint-plugin': 5.56.0
   '@typescript-eslint/parser': 5.56.0
@@ -50,7 +50,7 @@ devDependencies:
   '@pmmmwh/react-refresh-webpack-plugin': 0.5.10_4jihdofj5ezpy5kos6qx7ootii
   '@types/jest': 29.5.0
   '@types/node': 18.15.7
-  '@types/react': 18.0.28
+  '@types/react': 18.0.29
   '@types/react-dom': 18.0.11
   '@typescript-eslint/eslint-plugin': 5.56.0_iskin7c6dxqunwflhstekcjqmq
   '@typescript-eslint/parser': 5.56.0_vgl77cfdswitgr47lm5swmv43m
@@ -1955,11 +1955,11 @@ packages:
   /@types/react-dom/18.0.11:
     resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
     dependencies:
-      '@types/react': 18.0.28
+      '@types/react': 18.0.29
     dev: true
 
-  /@types/react/18.0.28:
-    resolution: {integrity: sha512-RD0ivG1kEztNBdoAK7lekI9M+azSnitIn85h4iOiaLjaTrMjzslhaqCGaI4IyCJ1RljWiLCEu4jyrLLgqxBTew==}
+  /@types/react/18.0.29:
+    resolution: {integrity: sha512-wXHktgUABxplw1+UnljseDq4+uztQyp2tlWZRIxHlpchsCFqiYkvaDS8JR7eKOQm8wziTH/el5qL7D6gYNkYcw==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
