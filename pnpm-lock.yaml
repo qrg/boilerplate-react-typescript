@@ -14,7 +14,7 @@ specifiers:
   '@typescript-eslint/parser': 5.57.1
   babel-loader: 9.1.2
   clean-webpack-plugin: 4.0.0
-  core-js: 3.29.1
+  core-js: 3.30.0
   cross-env: 7.0.3
   eslint: 8.37.0
   eslint-config-airbnb: ^19.0.4
@@ -38,7 +38,7 @@ specifiers:
   webpack-dev-server: 4.13.2
 
 dependencies:
-  core-js: 3.29.1
+  core-js: 3.30.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -3012,8 +3012,8 @@ packages:
     requiresBuild: true
     dev: true
 
-  /core-js/3.29.1:
-    resolution: {integrity: sha512-+jwgnhg6cQxKYIIjGtAHq2nwUOolo9eoFZ4sHfUH09BLXBgxnH4gA0zEd+t+BO2cNB8idaBtZFcFTRjQJRJmAw==}
+  /core-js/3.30.0:
+    resolution: {integrity: sha512-hQotSSARoNh1mYPi9O2YaWeiq/cEB95kOrFb4NCrO4RIFt1qqNpKsaE+vy/L3oiqvND5cThqXzUU3r9F7Efztg==}
     requiresBuild: true
     dev: false
 
