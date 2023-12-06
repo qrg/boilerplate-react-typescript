@@ -86,8 +86,8 @@ devDependencies:
     specifier: 4.6.0
     version: 4.6.0(eslint@8.55.0)
   html-webpack-plugin:
-    specifier: 5.5.3
-    version: 5.5.3(webpack@5.89.0)
+    specifier: 5.5.4
+    version: 5.5.4(webpack@5.89.0)
   jest:
     specifier: ^29.7.0
     version: 29.7.0(@types/node@18.19.2)
@@ -4327,8 +4327,8 @@ packages:
       terser: 5.24.0
     dev: true
 
-  /html-webpack-plugin@5.5.3(webpack@5.89.0):
-    resolution: {integrity: sha512-6YrDKTuqaP/TquFH7h4srYWsZx+x6k6+FbsTm0ziCwGHDP78Unr1r9F/H4+sGmMbX08GQcJ+K64x55b+7VM/jg==}
+  /html-webpack-plugin@5.5.4(webpack@5.89.0):
+    resolution: {integrity: sha512-3wNSaVVxdxcu0jd4FpQFoICdqgxs4zIQQvj+2yQKFfBOnLETQ6X5CDWdeasuGlSsooFlMkEioWDTqBv1wvw5Iw==}
     engines: {node: '>=10.13.0'}
     peerDependencies:
       webpack: ^5.20.0
