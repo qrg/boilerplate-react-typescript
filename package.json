@@ -33,7 +33,7 @@
     "@pmmmwh/react-refresh-webpack-plugin": "0.5.11",
     "@types/jest": "^29.5.12",
     "@types/node": "18.19.14",
-    "@types/react": "18.2.52",
+    "@types/react": "18.2.53",
     "@types/react-dom": "18.2.18",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
