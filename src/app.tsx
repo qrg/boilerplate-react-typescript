@@ -1,6 +1,6 @@
-import React, { FC } from 'react'
+import React from 'react'
 
-export const App: FC = () => (
+export const App = () => (
   <header className="app-header">
     <p>
       Edit <code>src/App.tsx</code> and save to reload.
