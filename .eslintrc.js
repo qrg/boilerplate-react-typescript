@@ -111,12 +111,6 @@ module.exports = {
       },
     },
     {
-      files: ['./webpack.config.js'],
-      rules: {
-        ...rules,
-      },
-    },
-    {
       files: ['**/*.ts', '**/*.tsx'],
       env: {
         node: true,
@@ -126,7 +120,9 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       parserOptions: {
         ...parserOptions,
-        project: './tsconfig.json',
+        project: ['./tsconfig.json', './tsconfig.node.json'],
+        sourceType: 'module',
+        tsconfigRootDir: __dirname,
       },
       extends: [...configsTs, 'prettier'],
       rules: rulesTs,
