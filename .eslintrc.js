@@ -1,4 +1,4 @@
-const plugins = ['import', 'promise', 'jsx-a11y']
+const plugins = ['import', 'promise', 'jsx-a11y', 'react-refresh']
 const pluginsTs = [...plugins, '@typescript-eslint']
 
 const configs = [
@@ -41,6 +41,7 @@ const rules = {
   // warn
   'no-console': 'warn',
   'prefer-template': 'warn',
+  'react-refresh/only-export-components': 'warn',
 
   // error
   'no-var': 'error',
