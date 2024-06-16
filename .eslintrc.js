@@ -24,7 +24,7 @@ const parserOptions = {
   ecmaFeatures: {
     jsx: true,
   },
-  ecmaVersion: 2022,
+  ecmaVersion: 2024,
   sourceType: 'module',
 }
 
