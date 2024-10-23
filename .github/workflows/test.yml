@@ -8,10 +8,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Use Node.js v18.20.2
+      - name: Use Node.js v20.18.0
         uses: actions/setup-node@v4
         with:
-          node-version: '18.20.2'
+          node-version: '20.18.0'
 
       - name: Use pnpm
         uses: pnpm/action-setup@v2
